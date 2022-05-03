@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body{
     background-color: antiquewhite;
@@ -37,4 +38,48 @@ nav ul li{
     align-items: center;
     font-weight: bolder;
     font-size:1.3rem;
+}
+
+
+
+
+.container {
+    min-height:70vh;
+    background-color:black;
+    color:white;
+    width:80%;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg);
+}
+
+
+
+
+.bottom{
+    position:sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons i {
+    cursor:pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    /* text-align: center; */
 }
